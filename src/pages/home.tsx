@@ -9,7 +9,7 @@ function Home() {
      
       <div 
        style={{backgroundImage: `url(${homePageData.banner})`}} 
-      className="bg-cover px-4 lg:px-20 bg-center text-white flex flex-col gap-4 justify-center items-start py-[6rem]">
+      className="bg-cover px-4 lg:px-20 bg-center text-white flex flex-col gap-4 justify-center items-start py-[10rem] ">
         <h1 className="text-6xl  md:text-8xl lg:text-50xl  font-[1000]">
           {homePageData.heading1[0]}
                <br/>

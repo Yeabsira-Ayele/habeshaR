@@ -5,9 +5,10 @@ import { useState } from "react";
 
 function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  
 
   return (
-    <nav className="relative flex justify-between items-center px-10 py-2">
+    <nav className="fixed top-0 left-0 bg-white w-full z-50 shadow-sm flex justify-between items-center px-10 py-2">
       {/* Logo */}
       <div className="flex flex-col items-center">
         <h1 className="font-bold leading-none m-0">ABTAM</h1>
@@ -20,7 +21,7 @@ function Navbar() {
           <NavLink
             to={elmnt.to}
             key={elmnt.to}
-            className="text-gray-600 text-sm hover:text-black transition-colors duration-300"
+            className={({isActive}) => isActive?"text-black" : "text-gray-600 text-sm hover:text-black transition-colors duration-300"}
           >
             {elmnt.name}
           </NavLink>
@@ -55,7 +56,7 @@ function Navbar() {
               to={elmnt.to}
               key={elmnt.to}
               onClick={() => setMenuOpen(false)}
-              className="text-gray-600 text-sm hover:text-black transition-colors duration-300"
+              className={ ({isActive}) => isActive? "text-black" : "text-gray-600 text-sm hover:text-black transition-colors duration-300"}
             >
               {elmnt.name}
             </NavLink>
