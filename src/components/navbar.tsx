@@ -31,8 +31,8 @@ function Navbar() {
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
       <nav aria-label="Main" className="container-page flex h-16 items-center justify-between gap-6">
         <Link to="/" className="flex items-baseline gap-2" aria-label="ABTAM Fast Food, home">
-          <span className="font-condensed text-2xl font-bold leading-none tracking-wide">ABTAM</span>
-          <span className="hidden text-sm leading-none text-gray-500 sm:inline">Fast Food</span>
+          <span className="font-condensed text-2xl font-bold leading-none tracking-wide">Habesha Food</span>
+
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">

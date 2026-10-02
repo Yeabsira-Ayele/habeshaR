@@ -8,8 +8,8 @@ function Footer() {
     <footer className="border-t border-gray-200 bg-white text-sm text-gray-600">
       <div className="container-page grid gap-10 py-12 md:grid-cols-3 md:gap-12">
         <div>
-          <p className="font-condensed text-2xl font-bold tracking-wide text-black">ABTAM</p>
-          <p className="mt-1">Fast Food · Addis Ababa</p>
+          <p className="font-condensed text-2xl font-bold tracking-wide text-black">Habesha Food</p>
+          <p className="mt-1">Fast Delivary · Addis Ababa</p>
           <p className="mt-4 max-w-xs">Fresh Ethiopian flavors, served fast.</p>
         </div>
 
