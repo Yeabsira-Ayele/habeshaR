@@ -45,7 +45,7 @@ function Footer() {
       </div>
 
       <div className="border-t border-gray-200">
-        <p className="container-page py-5 text-xs text-gray-500">© {new Date().getFullYear()} ABTAM Fast Food. All rights reserved.</p>
+        <p className="container-page py-5 text-xs text-gray-500">© {new Date().getFullYear()} Habesha Food. All rights reserved.</p>
       </div>
     </footer>
   );
